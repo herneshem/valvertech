@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  color-scheme: light;
+
+  /* Colores */
+  --page: #F5F5F3;
+  --surface: #FFFFFF;
+  --ink: #292323;
+  --inkto: #dd1111;
+  --muted: #786f6f;
+  --line: #E5E7E2;
+
+  /* Identidad corporativa */
+  --accent-dark: #526F43;
+  --accent-soft: #EDF1E9;
+
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  color: var(--ink);
+  background: var(--page);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--page);
+}
+
+a:focus-visible {
+  border-radius: 6px;
+  outline: 2px solid var(--accent-dark);
+  outline-offset: 4px;
+}
