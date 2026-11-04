@@ -34,10 +34,10 @@ export class App {
       artLabel: 'Ideas en orden'
     },
     {
-      name: 'Proyecto Tres',
-      description: 'Un espacio visual para compartir, descubrir y conectar con inspiración.',
+      name: 'Drones no tripulados',
+      description: 'Seguimiento de drones y misiones .',
       category: 'Experimento',
-      url: 'https://tu-proyecto-tres.netlify.app',
+      url: 'https://dronesuav-websocket.netlify.app/mission/1',
       artClass: 'art-peach',
       artLabel: 'Hecho para explorar'
     }

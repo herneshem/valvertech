@@ -225,7 +225,7 @@
         }
 
         &.art-peach {
-          background: #f5e4d7;
+          background: #f5e4d7 url('/images/drones.png') center / cover no-repeat;
         }
 
         @media (max-width: 760px) {
@@ -281,7 +281,7 @@
 
           a {
             color: var(--accent-dark);
-            font-size: 11px;
+            font-size: 20px;
             font-weight: 700;
             text-decoration: none;
           }
