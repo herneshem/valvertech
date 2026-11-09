@@ -17,6 +17,14 @@ interface Project {
 })
 export class App {
   protected readonly projects: Project[] = [
+      {
+      name: 'Drones no tripulados',
+      description: 'Seguimiento de drones y misiones .',
+      category: 'Experimento',
+      url: 'https://dronesuav-websocket.netlify.app/mission/1',
+      artClass: 'art-peach',
+      artLabel: 'Hecho para explorar'
+    },
     {
       name: 'Login Administrador',
       description: 'Formulario de reservas solo vistas por el administrador-Gestor de reservas.',
@@ -32,14 +40,7 @@ export class App {
       url: 'https://saboresdelmundofront.netlify.app/home',
       artClass: 'art-lilac',
       artLabel: 'Ideas en orden'
-    },
-    {
-      name: 'Drones no tripulados',
-      description: 'Seguimiento de drones y misiones .',
-      category: 'Experimento',
-      url: 'https://dronesuav-websocket.netlify.app/mission/1',
-      artClass: 'art-peach',
-      artLabel: 'Hecho para explorar'
     }
+  
   ];
 }
