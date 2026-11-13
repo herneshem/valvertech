@@ -283,6 +283,10 @@
           background-image: url('/images/drones.png');
         }
 
+         &.art-uve {
+          background-image: url('/images/componetsUAV.png');
+        }
+
         @media (max-width: 760px) {
           min-height: 180px;
         }
