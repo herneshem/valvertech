@@ -40,6 +40,14 @@ export class App {
       url: 'https://saboresdelmundofront.netlify.app/home',
       artClass: 'art-lilac',
       artLabel: 'Ideas en orden'
+    },
+     {
+      name: 'Software componentes de drones',
+      description: 'EN CONSTRUCCIÓN.',
+      category: 'Software',
+      url: 'https://flyopen-front.netlify.app/',
+      artClass: 'art-uve',
+      artLabel: 'Componentes'
     }
   
   ];
